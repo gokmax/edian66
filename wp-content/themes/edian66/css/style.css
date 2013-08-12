@@ -1,0 +1,186 @@
+/*
+ *  pages styles
+ *  @author naiteluo
+ */
+
+
+/* index */
+
+body.home .footer {
+    margin-top: 0px;
+}
+
+body.home .container {
+    position: relative;
+}
+
+body.home .container .search {
+    position: absolute;
+    top: 500px;
+    left: 760px;
+}
+
+body.home .container .news {
+    position: absolute;
+    top: 430px;
+    left: 500px;
+}
+
+body.home .container .news ul{
+    line-height: 1.1em;
+}
+
+/* page1 */
+
+.container-right .xuexileyuan {
+    padding-left: 0px;
+}
+
+.container-right .xuexileyuan .box-header{
+    height: 48px;
+    background: url('../images/right-box-header-bg.png') 0 0 no-repeat;
+}
+
+.container-right .xuexileyuan .box-header strong {
+    display: block;
+    padding: 25px 0px 0px 25px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.container-right .xuexileyuan .box-body{
+    height: 200px;
+    background: url('../images/right-box-body-bg.png') 0 0 repeat-y;
+}
+
+.container-right .xuexileyuan .box-body>ul>li {
+    padding: 10px 0px 0px 15px;
+}
+
+.container-right .xuexileyuan .box-body>ul>li>a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.container-right .xuexileyuan .box-body ul li .arrow {
+	background: url('../images/right-box-body-arr.png') 0 0 no-repeat;
+}
+
+.container-right .xuexileyuan .box-body>ul>li>ul>li {
+    padding: 5px 0px 0px 12px;
+    background: url('../images/cat-item-bg.png') -1px 10px no-repeat;
+}
+
+.container-right .xuexileyuan .box-body>ul>li>ul>li>a {
+    font-size: 16px;
+    color: #9e4912;
+}
+
+.container-right .xuexileyuan .box-footer{
+    height: 76px;
+    background: url('../images/right-box-footer-bg.png') 0 0 no-repeat;
+}
+
+.container-right .site-nav {
+    margin-top: 8px;
+    height: 41px;
+    background: url('../images/right-box-2-bg.png') 0 0 no-repeat;
+}
+
+/* single */
+body.single {
+    background: url('../images/single-bg.png') 36px 16px repeat-x;
+}
+
+body.single .container {
+    overflow: hidden;
+    position: relative;
+    top: -15px;
+    width: auto;
+    height: 710px;
+    background: url('../images/swf-bg.jpg') 50% 0 no-repeat;
+}
+
+body.single .content-wrapper {
+    width: 860px;
+    margin: 0 auto;
+    padding-top: 135px;
+}
+
+body.single .location {
+    padding-left: 20px;
+}
+
+body.single .location a {
+    color: #fff;
+    line-height: 45px;
+}
+
+body.single .location .location-div {
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+	color: white;
+}
+
+body.single .content {
+    width: 620px;
+    float: left;
+}
+
+body.single .content h2 {
+    color: #fea203;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 40px 0px 20px 80px;
+}
+
+body.single .content .swf-wrapper {
+    padding: 18px 0px 0px 36px;
+}
+
+body.single .content .control-panel .play-btn {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: url('../images/play-btn-bg.jpg') 0 0 no-repeat;
+}
+
+body.single .container-right .more-video-title {
+	margin-top: 35px;
+	margin-left: -10px;
+	font-size: 16pt;
+	color: white;
+}
+
+body.single .container-right .more-video-area {
+	margin-left: -20px;
+	margin-top:34px;
+}
+
+body.single .container-right .more-video-area li {
+	margin-top: -5px;
+}
+
+body.single .container-right .more-video-area li p {
+	font-size: 12px;
+}
+
+body.single .container-right .more-video-area li p .playnum{
+	padding-top: -15px;
+}
+
+body.single .container-right .more-video-area li a.title {
+	color: #9e4810;
+	margin: 0;
+}
+
+body.single .sidebar {
+    width: 300px;
+    float: left;
+}
+
+body.single .footer {
+    margin-top: 0px;
+}
